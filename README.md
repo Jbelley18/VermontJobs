@@ -78,10 +78,30 @@ vermont-jobs-tracker/
 2. Implement the scraper similar to the existing ones
 3. Import the scraper in `main.py` and add it to the `run_scrapers` function
 
-### Running tests
+## Running Tests
+
+The project includes a comprehensive test suite covering the API endpoints, scraper functionality, and background tasks.
+
+To run the tests:
 
 ```bash
+# Run all tests
 pytest
+
+# Run tests with verbose output
+pytest -v
+
+# Run a specific test file
+pytest tests/test_api.py
+
+# Run tests with coverage report
+pytest --cov=app
+```
+
+For the coverage report, you may need to install `pytest-cov`:
+
+```bash
+pip install pytest-cov
 ```
 
 ## Future Enhancements
