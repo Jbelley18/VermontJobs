@@ -1,0 +1,11 @@
+fastapi>=0.103.1
+uvicorn>=0.23.2
+sqlalchemy>=2.0.20
+pydantic==1.10.8  # Using an older version with pre-built wheels
+alembic>=1.12.0
+beautifulsoup4>=4.12.2
+requests>=2.31.0
+python-dotenv>=1.0.0
+aiohttp>=3.8.5
+pytest>=7.4.2
+httpx>=0.24.1
